@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المركز القانوني الإلكتروني</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .law-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>المركز القانوني الإلكتروني</h1>
+        <p>خدمات قانونية متكاملة بين يديك</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="laws.html">القوانين</a></li>
+            <li><a href="summaries.html">الملخصات</a></li>
+            <li><a href="#court-order">طلب قرار محكمة تميز</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section class="law-section">
+            <h2>أهم القوانين</h2>
+            <p>تصفح أحدث القوانين والتشريعات المعمول بها في المملكة</p>
+            <a href="laws.html" class="btn">استعراض القوانين</a>
+        </section>
+        
+        <h2>خدماتنا</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>شرح المادة القانونية</h3>
+                <p>احصل على شرح مفصل لأي مادة قانونية من قبل مختصين</p>
+                <p class="price">سعر الخدمة: 20 دينار</p>
+                <button class="btn">اطلب الخدمة الآن</button>
+            </div>
+            
+            <div class="service-card">
+                <h3>طلب قرار محكمة تميز</h3>
+                <p>خدمة متخصصة لطلب قرارات محكمة التميز</p>
+                <button class="btn">اطلب الخدمة الآن</button>
+            </div>
+            
+            <div class="service-card">
+                <h3>ملخصات قانونية</h3>
+                <p>ملخصات مبسطة لأهم القوانين والتشريعات</p>
+                <a href="summaries.html" class="btn">استعراض الملخصات</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2023 المركز القانوني الإلكتروني</p>
+        <p>للتواصل: info@legalsite.com | هاتف: 123456789</p>
+    </footer>
+</body>
+</html>
